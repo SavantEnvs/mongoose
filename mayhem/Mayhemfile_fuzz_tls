@@ -1,0 +1,6 @@
+project: savantenvs/mongoose
+target: fuzz_tls
+cmds:
+  - cmd: /mayhem/fuzz_tls
+    libfuzzer: true
+    timeout: 5
